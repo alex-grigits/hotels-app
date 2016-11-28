@@ -1,0 +1,49 @@
+#topCities, #topCountries, #topTrips {
+  text-align: center;
+}
+
+.destination-card {
+  box-shadow: 0 1.5px 4px rgba(0,0,0,.24),0 1.5px 6px rgba(0,0,0,.12);
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 9px;
+  overflow: hidden;
+  margin: 0 30px 35px 0;
+  vertical-align: top;
+  width: 264px;
+  height: 300px;
+  background-color: #f5f3ed;
+  position: relative;
+}
+
+.destination-card .destination.img img {
+  width: 264px;
+  height: 221px;
+  vertical-align: middle;
+  border: 0;
+}
+
+.destination-card .content {
+  display: table;
+  width: 100%;
+  height: 80px;
+}
+
+.destination-card .description {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 23px;
+  letter-spacing: .8px;
+}
+
+.destination img {
+  padding: 0;
+}
+
+
+.description small {
+  color: #808080;
+  letter-spacing: .3px;
+  font-size: 85%;
+}

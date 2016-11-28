@@ -1,0 +1,110 @@
+#help {
+  padding: 0 20px 27px;
+}
+
+#footer-holder {
+  border-top: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid rgb(222, 222, 222);
+
+  padding: 60px 0 30px 0;
+}
+
+#footer-holder blockquote {
+  display: inline-block;
+  vertical-align: top;
+
+  border-left: none;
+
+  font-weight: 600;
+  line-height: 1.8;
+  font-style: italic;
+
+  max-width: 40%;
+  text-align: left;
+  margin: 0;
+
+  min-height: 140px;
+  padding-left: 40px;
+}
+
+#footer-holder cite {
+  margin-top: 15px;
+  display: block;
+  font-weight: 600;
+  font-size: 85%;
+  color: #915b8b;
+}
+
+#footer-holder img {
+  display: inline-block;
+  height: 135px;
+  width: 135px;
+  margin-left: 120px;
+}
+
+#social-networks {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+footer #footer-holder #social-networks li {
+  list-style-type: none;
+  margin: 0 10px 15px;
+}
+
+footer #footer-holder #social-networks li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 44px;
+  height: 43px;
+  line-height: 50px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+
+footer #footer-holder #social-networks li a .fa {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+footer #footer-holder #social-networks .facebook {
+  background-color: #617bba;
+}
+
+footer #footer-holder #social-networks .instagram {
+  background-color: #524e4e;
+}
+
+footer #footer-holder #social-networks .youtube {
+  background-color: #cd654e;
+}
+
+footer #footer-holder #links {
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 0 0 0 20px;
+}
+
+footer #footer-holder #links li a {
+  color: #6b6b6b;
+  font-weight: 600;
+  display: inline-block;
+  padding: 6px 0;
+}
+
+footer .copyright {
+    line-height: 60px;
+    text-align: center;
+    color: #a9a9a9;
+}

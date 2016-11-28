@@ -1,0 +1,49 @@
+<section id="destinations">
+
+  <h2 style="padding-top: 0;">Top Cities</h2>
+  <div id="topCities" class="destinations-list">
+    <div class="destination-card" *ngFor="let city of cities">
+      <button class="destination img">
+        <img src="{{city.pictureUrl}}" alt="city">
+      </button>
+      <div class="content">
+        <div class="description">
+          <h4>{{city.name}}</h4>
+          <small>Up to {{city.hotelsCount}} Hotels</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Top Countries</h2>
+  <div id="topCountries" class="destinations-list">
+    <div class="destination-card" *ngFor="let country of countries">
+      <button class="destination img">
+        <img src="{{country.pictureUrl}}" alt="city">
+      </button>
+      <div class="content">
+        <div class="description">
+          <h4>{{country.name}}</h4>
+          <small>Up to {{country.hotelsCount}} Hotels</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <h2>Top Inspirational Trips</h2>
+  <div id="topTrips" class="destinations-list">
+
+  </div>
+
+  <h2 id="allDestinations">All Destinations</h2>
+  <input id="filter" maxlength="20" type="text" placeholder="Search City" />
+  <span class="input-append"></span>
+  <br />
+
+  <div id="countries">
+
+  </div>
+
+</section>

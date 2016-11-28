@@ -1,0 +1,18 @@
+[
+  { "id": 1, "name":"London","hotelsCount":134, "discount":43, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2,
+    "hotels": [
+      {"name": "Hotel 1", "cost":300},
+      {"name": "Hotel 2", "cost":200},
+      {"name": "Hotel 3", "cost":330},
+      {"name": "Hotel 4", "cost":130},
+      {"name": "Hotel 5", "cost":630}
+    ]
+   },
+  { "id": 2, "name":"Dubai", "hotelsCount":91,  "discount":53, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 },
+  { "id": 3, "name":"Paris", "hotelsCount":73,  "discount":41, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 },
+  { "id": 4, "name":"Barcelona", "hotelsCount":66, "discount":42, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2},
+  { "id": 5, "name":"New York City", "hotelsCount":99, "discount":59, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 },
+  { "id": 6, "name":"Copenhagen", "hotelsCount":38, "discount":17, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 },
+  { "id": 7, "name":"Berlin", "hotelsCount":67, "discount":43, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 },
+  { "id": 8, "name":"Bangkok", "hotelsCount":97, "discount":55, "pictureUrl":"http://lorempixel.com/264/221/city", "destinations":[], "destinationType":2 }
+]

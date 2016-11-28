@@ -1,0 +1,16 @@
+.logo {
+    display: inline-block;
+}
+
+.header {
+    padding: 20px 0 20px 0;
+    border-bottom: 3px solid rgb(145, 91, 139);
+}
+
+.active {
+    background-color: rgb(145, 91, 139);
+}
+
+.active a {
+    color: #000;
+}
